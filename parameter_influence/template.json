@@ -1,0 +1,16 @@
+{
+    "cpu_set": [    
+       6,12
+    ],
+    "memtable_size_set": [
+        "64*1024*1024"
+    ],
+    "storage_paths": [
+       {
+            "path": "/home/jinghuan/rocksdb_ssd",
+            "media_type": "SATASSD"
+       }],
+    "io_options":{
+    "max_background_compactions":[1,4,8,12]
+    }
+}

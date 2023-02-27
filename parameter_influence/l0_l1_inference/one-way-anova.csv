@@ -1,0 +1,13 @@
+media,io_option,std_of_IOPS,mean_of_IOPS
+SATAHDD,level0_file_num_compaction_trigger,2959.948986046888,32800.0
+SATASSD,level0_file_num_compaction_trigger,1422.6988437473335,14641.0
+NVMeSSD,level0_file_num_compaction_trigger,4485.178313066271,174524.5
+SATAHDD,max_bytes_for_level_base,2456.2657293813577,33993.666666666664
+SATASSD,max_bytes_for_level_base,1465.6037436269507,13600.666666666666
+NVMeSSD,max_bytes_for_level_base,16575.344460975764,164547.0
+SATAHDD,min_write_buffer_number_to_merge,6662.850466079314,29440.5
+SATASSD,min_write_buffer_number_to_merge,1412.3003398710914,14698.25
+NVMeSSD,min_write_buffer_number_to_merge,8539.268367371997,170622.75
+SATAHDD,write_buffer_size,4595.119684694477,30164.75
+SATASSD,write_buffer_size,3032.9528378573027,18647.75
+NVMeSSD,write_buffer_size,26283.283018869617,219572.75

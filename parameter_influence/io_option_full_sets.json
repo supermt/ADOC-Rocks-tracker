@@ -1,0 +1,402 @@
+{
+    "cpu_set": [
+        12
+    ],
+    "memtable_size_set": [
+        "64*1024*1024"
+    ],
+    "storage_paths": [
+        {
+            "path": "/home/jinghuan/rocksdb_nvme",
+            "media_type": "NVMeSSD"
+        },
+        {
+            "path": "/home/jinghuan/rocksdb_ssd",
+            "media_type": "SATASSD"
+        },
+        {
+            "path": "/home/jinghuan/rocksdb_hdd",
+            "media_type": "SATAHDD"
+        }
+    ],
+    "io_options": {
+        "bytes_per_sync": [
+            0,
+            1024,
+            1048576,
+            67108864
+        ],
+        "block_restart_interval": [
+            0,
+            16,
+            32
+        ],
+        "block_size": [
+            4096,
+            8192,
+            40960,
+            81920
+        ],
+        "cache_high_pri_pool_ratio": [
+            0,
+            0.25,
+            0.5,
+            0.75,
+            0.95
+        ],
+        "cache_index_and_filter_blocks": [
+            true,
+            false
+        ],
+        "cache_numshardbits": [
+            6,
+            8,
+            10
+        ],
+        "cache_size": [
+            8388608,
+            83886080
+        ],
+        "compaction_pri": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "compaction_readahead_size": [
+            0
+        ],
+        "compaction_fadvice": [
+            "NORMAL"
+        ],
+        "compaction_style": [
+            0,
+            1,
+            2
+        ],
+        "compression_level": [
+            -1,
+            0,
+            4,
+            8
+        ],
+        "compression_max_dict_bytes": [
+            0,
+            64,
+            640,
+            6400
+        ],
+        "cuckoo_hash_ratio": [
+            0.90000000000000002,
+            0.80000000000000002
+        ],
+        "delayed_write_rate": [
+            8388608,
+            83886080
+        ],
+        "disable_wal": [
+            true,
+            false
+        ],
+        "enable_io_prio": [
+            true,
+            false
+        ],
+        "enable_pipelined_write": [
+            true,
+            false
+        ],
+        "enable_write_thread_adaptive_yield": [
+            true,
+            false
+        ],
+        "expand_range_tombstones": [
+            true,
+            false
+        ],
+        "finish_after_writes": [
+            true,
+            false
+        ],
+        "hard_pending_compaction_bytes_limit": [
+            137438953472,
+            13743895347,
+            1374389534720
+        ],
+        "hash_bucket_count": [
+            1048576,
+            104857,
+            10485760
+        ],
+        "identity_as_first_hash": [
+            true,
+            false
+        ],
+        "index_block_restart_interval": [
+            1,
+            4,
+            16
+        ],
+        "level0_slowdown_writes_trigger": [
+            4,
+            8,
+            16,
+            20,
+            32
+        ],
+        "level_compaction_dynamic_level_bytes": [
+            true,
+            false
+        ],
+        "max_bytes_for_level_multiplier": [
+            4,
+            10,
+            20
+        ],
+        "max_compaction_bytes": [
+            0,
+            67108864,
+            671088640,
+            6710886400
+        ],
+        "max_num_range_tombstones": [
+            0,
+            10,
+            50,
+            100
+        ],
+        "max_successive_merges": [
+            0,
+            100,
+            671,
+            6710,
+            67108,
+            671088
+        ],
+        "max_total_wal_size": [
+            0,
+            67108864
+        ],
+        "memtable_bloom_size_ratio": [
+            0,
+            0.1,
+            0.25,
+            0.5,
+            0.75
+        ],
+        "memtable_insert_with_hint_prefix_size": [
+            0,
+            2,
+            4,
+            8
+        ],
+        "memtable_use_huge_page": [
+            true,
+            false
+        ],
+        "memtablerep": [
+            "skip_list"
+        ],
+        "merge_keys": [
+            -1,
+            100,
+            400,
+            1600
+        ],
+        "merge_operator": [
+            ""
+        ],
+        "min_level_to_compress": [
+            -1,
+            1,
+            3
+        ],
+        "min_write_buffer_number_to_merge": [
+            1,
+            2,
+            4
+        ],
+        "mmap_read": [
+            true,
+            false
+        ],
+        "mmap_write": [
+            true,
+            false
+        ],
+        "new_table_reader_for_compaction_inputs": [
+            0,
+            1
+        ],
+        "open_files": [
+            -1,
+            10,
+            64,
+            1024,
+            2048
+        ],
+        "optimize_filters_for_hits": [
+            true,
+            false
+        ],
+        "pin_l0_filter_and_index_blocks_in_cache": [
+            true,
+            false
+        ],
+        "prefix_size": [
+            0,
+            2,
+            4,
+            8
+        ],
+        "range_tombstone_width": [
+            100,
+            10,
+            1000
+        ],
+        "rate_limit_delay_max_milliseconds": [
+            100,
+            1000,
+            10000
+        ],
+        "read_amp_bytes_per_bit": [
+            0,
+            16,
+            128,
+            1024
+        ],
+        "read_cache_direct_read": [
+            true,
+            false
+        ],
+        "read_cache_direct_write": [
+            true,
+            false
+        ],
+        "read_cache_path": [
+            "/home/jinghuan/rocksdb_nvme",
+            "/home/jinghuan/rocksdb_hdd",
+            "/home/jinghuan/rocksdb_ssd"
+        ],
+        "read_cache_size": [
+            4294967296,
+            429496729,
+            42949672960
+        ],
+        "reads": [
+            -1
+        ],
+        "reverse_iterator": [
+            true,
+            false
+        ],
+        "row_cache_size": [
+            0,
+            1024,
+            10240
+        ],
+        "show_table_properties": [
+            true,
+            false
+        ],
+        "skip_list_lookahead": [
+            0,
+            1,
+            2,
+            4,
+            8
+        ],
+        "soft_pending_compaction_bytes_limit": [
+            68719476736,
+            6871947673,
+            687194767360
+        ],
+        "table_cache_numshardbits": [
+            4,
+	    8,
+            16,
+            20
+        ],
+        "target_file_size_base": [
+            67108864,
+            134217728,
+            33554432
+        ],
+        "target_file_size_multiplier": [
+            1,
+            4,
+            10
+        ],
+        "universal_allow_trivial_move": [
+            true,
+            false
+        ],
+        "use_adaptive_mutex": [
+            true,
+            false
+        ],
+        "use_blob_db": [
+            true,
+            false
+        ],
+        "use_block_based_filter": [
+            true,
+            false
+        ],
+        "use_cuckoo_table": [
+            true,
+            false
+        ],
+        "use_direct_io_for_flush_and_compaction": [
+            true,
+            false
+        ],
+        "use_direct_reads": [
+            true,
+            false
+        ],
+        "use_fsync": [
+            true,
+            false
+        ],
+        "use_hash_search": [
+            true,
+            false
+        ],
+        "use_plain_table": [
+            true,
+            false
+        ],
+        "use_single_deletes": [
+            true,
+            false
+        ],
+        "use_tailing_iterator": [
+            true,
+            false
+        ],
+        "use_uint64_comparator": [
+            true,
+            false
+        ],
+        "verify_checksum": [
+            true,
+            false
+        ],
+        "wal_bytes_per_sync": [
+            0
+        ],
+        "writable_file_max_buffer_size": [
+            1048576,
+            10485760,
+            104857
+        ],
+        "compression_type": [
+            "none",
+            "snappy"
+        ],
+        "compression_ratio": [
+            0.5
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/jinghuan/rocksdb_ssd
+Keys:       8 bytes each
+Values:     1000 bytes each (500 bytes after compression)
+Entries:    10737418
+Prefix:    0 bytes
+Keys per prefix:    0
+RawSize:    10321.9 MB (estimated)
+FileSize:   5201.9 MB (estimated)
+Write rate: 0 bytes/second
+Read rate: 0 ops/second
+Compression: NoCompression
+Compression sampling rate: 0
+Memtablerep: skip_list
+Perf Level: 1
+------------------------------------------------
+Initializing RocksDB Options from the specified file
+Initializing RocksDB Options from command-line flags
+/home/jinghuan/rocksdb_ssd
+DB path: [/home/jinghuan/rocksdb_ssd]
+opened report file
+fillrandom   :      76.928 micros/op 12999 ops/sec;   12.5 MB/s

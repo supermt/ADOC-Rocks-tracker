@@ -1,0 +1,29 @@
+{
+    "cpu_set": [  
+	2
+    ],
+    "memtable_size_set": [
+        "64*1024*1024"
+    ],
+    "storage_paths": [
+         {
+           "path": "/home/supermt/rocksdb_pm",
+            "media_type": "PM"
+        },
+        {
+            "path": "/home/supermt/rocksdb_hdd",
+            "media_type": "SATAHDD"
+        },
+        {
+            "path": "/home/supermt/rocksdb_ssd",
+            "media_type": "SATASSD"
+        },
+        {
+            "path": "/home/supermt/rocksdb_nvme",
+            "media_type": "NVMeSSD"
+	}
+
+    ]
+}
+
+       

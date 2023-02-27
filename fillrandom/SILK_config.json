@@ -1,0 +1,17 @@
+{
+    "cpu_set": [
+	    8
+    ],
+    "memtable_size_set": [
+        "64*1024*1024",
+        "512*1024*1024"
+    ],
+    "storage_paths": [
+        {
+            "path": "/home/supermt/rocksdb_ssd",
+            "media_type": "SATASSD",
+	    "bandwidth":"600"
+        }
+
+    ]
+}

@@ -1,0 +1,14 @@
+**/__pycache__/*
+*.ini
+formatted_data/*
+**/*.pyc
+**/key_distribution
+default.ini
+motivation_bootstrap.py
+**/**.db
+**/**.journal*
+**/.vscode
+**/nohup.out
+**/*.data-folded
+**/*.perf-folded
+**/*.data

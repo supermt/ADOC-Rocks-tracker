@@ -1,0 +1,33 @@
+{
+    "cpu_set": [
+	    8
+    ],
+    "memtable_size_set": [
+        "64*1024*1024",
+        "512*1024*1024"
+    ],
+    "storage_paths": [
+	
+       {
+           "path": "/home/supermt/rocksdb_pm",
+            "media_type": "PM",
+	    "bandwidth":"3000"
+        },
+        {
+            "path": "/home/supermt/rocksdb_hdd",
+            "media_type": "SATAHDD",
+	    "bandwidth":"350"
+        },
+        {
+            "path": "/home/supermt/rocksdb_ssd",
+            "media_type": "SATASSD",
+	    "bandwidth":"600"
+        },
+        {
+            "path": "/home/supermt/rocksdb_nvme",
+            "media_type": "NVMeSSD",
+	    "bandwidth":"2700"
+	}
+
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "cpu_set": [
+        12
+    ],
+    "memtable_size_set": [
+        "64*1024*1024"
+    ],
+    "storage_paths": [
+        {
+            "path": "/home/jinghuan/rocksdb_nvme",
+            "media_type": "NVMeSSD"
+        },
+        {
+            "path": "/home/jinghuan/rocksdb_ssd",
+            "media_type": "SATASSD"
+        },
+        {
+            "path": "/home/jinghuan/rocksdb_hdd",
+            "media_type": "SATAHDD"
+        }
+    ],
+    "io_options": {
+        "write_buffer_size": [67108864,134217728,268435456,536870912],
+        "min_write_buffer_number_to_merge": [4,8,16],
+        "level0_file_num_compaction_trigger": [4,8],
+        "max_bytes_for_level_base": [268435456,536870912,1073741824]
+    }
+}
